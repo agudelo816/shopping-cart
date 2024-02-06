@@ -74,3 +74,12 @@ class ShoppingCart extends React.Component {
 }
 
 export default ShoppingCart;
+
+// https://chat.openai.com/c/e45d3266-07a0-4bef-919b-cb2aa7d061a5
+
+// Initializes with an empty cart (cartItems state).
+// Loads the cart from local storage in componentDidMount using loadCartFromLocalStorage.
+// Watches for changes in the cart items with componentDidUpdate and saves any changes to local storage using saveCartToLocalStorage.
+// Provides addItemToCart to add new items to the cart, demonstrating with a button to add a random item as an example.
+// Provides removeItemFromCart to remove an item from the cart based on its id.
+// Renders a list of cart items and includes a remove button for each item.
